@@ -15,6 +15,5 @@ const server = app.listen(port, () => winston.info(`Listening on port ${port}...
 //for integration Test
 module.exports = server;
 
-
 // Set environment for  jwtPrivatKey -> $env:vidly_jwtPrivatekey = "SecretKey"
 // To run Test environment $env:NODE_ENV="test" then node index.js
